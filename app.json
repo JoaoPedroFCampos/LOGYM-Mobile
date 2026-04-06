@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "LOGYM - Mobile",
-    "slug": "my-app",
+    "slug": "logym-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "logym-mobile",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash-icon.png",
