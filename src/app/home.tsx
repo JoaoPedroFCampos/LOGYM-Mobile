@@ -1,4 +1,4 @@
-import { Ionicons } from "@expo/vector-icons";
+ import { Ionicons } from "@expo/vector-icons";
 import React from "react";
 import {
   FlatList,
@@ -102,7 +102,7 @@ export default function Home() {
       {/* Perfil e Nome */}
       <View style={styles.userContainer}>
       <TouchableOpacity onPress={() => router.push("/perfil")}>
-      <Ionicons name="person-circle-outline" size={45} color="#000" />
+      <Ionicons name="person-circle-outline" size={45} color="#FFF" />
       </TouchableOpacity>
       <Text style={styles.userName}>Yuri</Text>
       </View>
@@ -200,12 +200,13 @@ const styles = StyleSheet.create({
 
   nome: {
     fontSize: 22,
-    fontFamily: "AlfaSlabOne-Regular",
+    // fontFamily: "AlfaSlabOne-Regular",
+    fontWeight: "bold",
     marginBottom: 6,
     color: "#FFF",
   },
 
-  texto: {
+  texto: { //Informações básicas sobre a a academias
     fontSize: 13,
     fontFamily: "Alexandria-SemiBold",
     color: "#FFF",

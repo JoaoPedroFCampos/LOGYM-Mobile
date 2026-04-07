@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   },
   image: { width: 150, height: "100%" },
   info: { flex: 1, padding: 12, justifyContent: "center" },
-  nome: { fontSize: 20},
+  nome: { fontSize: 22},
   texto: { fontSize: 13, color: "#8F8F8F" },
   star: { position: "absolute", right: 8, bottom: 8 },
 });
